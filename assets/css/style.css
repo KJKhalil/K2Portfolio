@@ -49,54 +49,74 @@ nav ul {
 
 .aboutme {
     height: 200px;
-    padding: 10px;
+    padding: 40px 100px;
 }
 
 .aboutme h2 {
-    font-size: 40px
+    font-size: 40px;
+    position:absolute;
+    left: 7%
+}
+
+.aboutme p {
+    display:flex;
+    justify-content: center;
+    font-size: 20px;
 }
 
 .aboutme .vl1 {
     border-left: 4px solid darkblue;
     height: 200px;
     position: absolute;
-    top: 390px;
-    left: 12%;
+    top: 420px;
+    left: 18%;
     margin-left: -10px;
 }
 
 .work {
-    height: 300px;
-    padding: 10px;
+    height: 600px;
+    padding: 100px;
 }
 
 .work h2 {
-    font-size: 40px
+    font-size: 40px;
+    position:absolute;
+    left: 11%
 }
 
 .work .vl2 {
     border-left: 4px solid darkblue;
-    height: 300px;
+    height: 600px;
     position: absolute;
-    top: 450px;
-    left: 12%;
+    top: 680px;
+    left: 18%;
     margin-left: -10px;
 }
 
 .contactme {
-    height: 300px;
-    padding: 10px;
+    height: 100px;
+    padding: 100px;
+    margin-top: 60px;
 }
 
 .contactme h3 {
-    font-size: 40px
+    font-size: 40px;
+    position:absolute;
 }
 
 footer .vl3 {
     border-left: 4px solid darkblue;
-    height: 300px;
+    height: 100px;
     position: absolute;
-    top: 800px;
-    left: 12%;
+    top: 1340px;
+    left: 18%;
     margin-left: -10px;
+}
+
+footer ul {
+    display:flex;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    justify-content: space-evenly;
 }
