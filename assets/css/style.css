@@ -48,13 +48,55 @@ nav ul {
 }
 
 .aboutme {
-    
+    height: 200px;
+    padding: 10px;
+}
+
+.aboutme h2 {
+    font-size: 40px
+}
+
+.aboutme .vl1 {
+    border-left: 4px solid darkblue;
+    height: 200px;
+    position: absolute;
+    top: 390px;
+    left: 12%;
+    margin-left: -10px;
 }
 
 .work {
-    
+    height: 300px;
+    padding: 10px;
+}
+
+.work h2 {
+    font-size: 40px
+}
+
+.work .vl2 {
+    border-left: 4px solid darkblue;
+    height: 300px;
+    position: absolute;
+    top: 450px;
+    left: 12%;
+    margin-left: -10px;
 }
 
 .contactme {
-    
+    height: 300px;
+    padding: 10px;
+}
+
+.contactme h3 {
+    font-size: 40px
+}
+
+footer .vl3 {
+    border-left: 4px solid darkblue;
+    height: 300px;
+    position: absolute;
+    top: 800px;
+    left: 12%;
+    margin-left: -10px;
 }
