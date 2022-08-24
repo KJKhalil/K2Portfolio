@@ -1,17 +1,42 @@
-main, header, section, aside, footer {
-    
+* {
+    box-sizing: border-box;
+  }
+
+body {
+
 }
 
 main {
    
 }
 
-.header {
-    
+header {
+
 }
 
+header h1 {
+    display: inline-block;
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+	padding: 0;
+}
+
+nav ul {
+
+}
+
+
 .hero {
-    
+    height: 800px;
+    width: 100%;
+    background-image: url("../assets/images/hero-img.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .content {
