@@ -80,11 +80,8 @@ nav ul {
 }
 
 .work {
-    height: 600px;
+    height: 720px;
     padding: 100px;
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(5, 1fr);
 }
 
 .work h2 {
@@ -95,11 +92,51 @@ nav ul {
 
 .work .vl2 {
     border-left: 4px solid darkblue;
-    height: 600px;
+    height: 720px;
     position: absolute;
     top: 680px;
     left: 18%;
     margin-left: -10px;
+}
+
+.work .project1 {
+    position: relative;
+    place-items: center;
+    left: 28%;
+}
+
+.work .project2 {
+    position: relative;
+    place-items: center;
+    left: 28%;
+}
+
+.work .project3 {
+    position: relative;
+    place-items: center;
+    left: 28%;
+}
+
+.work .project4 {
+    position: relative;
+    place-items: center;
+    left: 51.7%;
+    top: -39.7%;
+}
+
+.work .project5 {
+    position: relative;
+    place-items: center;
+    left: 51.7%;
+    top: -39.7%;
+}
+
+img {
+    border-color:darkblue;
+    border-style: solid;
+    border-width: 5px;
+    padding: 0;
+    margin: 0;
 }
 
 .contactme {
@@ -115,9 +152,9 @@ nav ul {
 
 footer .vl3 {
     border-left: 4px solid darkblue;
-    height: 100px;
+    height: 60px;
     position: absolute;
-    top: 1340px;
+    top: 1460px;
     left: 18%;
     margin-left: -10px;
 }
@@ -126,6 +163,5 @@ footer ul {
     display:flex;
     font-size: 30px;
     text-align: center;
-    padding: 30px;
     justify-content: space-evenly;
 }
