@@ -9,7 +9,7 @@
 
 ## Screenshot
 
-![This is an image of how the webpage looks as it is now.](./assets/images/Screenshot.png)
+![This is an image of how the webpage looks as it is now.](./assets/images/Portfolio.png)
 
 ### Github Deployed Link
 
